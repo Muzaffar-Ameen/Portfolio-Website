@@ -196,7 +196,7 @@ function Hero() {
                 {`{
   "success": true,
   "data": {
-    "message": "Hello World",
+    "Name": "Muzaffar Ameen",
     "status": "OK"
   }
 }`}
