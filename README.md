@@ -176,7 +176,7 @@ CGPA: **3.63 / 4.00**
 ## Portfolio
 
 **Live Portfolio:**  
-https://muzaffar-ameen-portfolio.netlify.app/
+https://muzaffareng.netlify.app/
 
 ## Contact
 
