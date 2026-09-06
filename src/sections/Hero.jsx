@@ -53,7 +53,7 @@ function Hero() {
             </div>
 
             {/* Main Heading */}
-            <h1 className="max-w-[720px] text-[52px] font-extrabold leading-[0.98] tracking-[-0.055em] text-text-primary sm:text-[68px] lg:text-[72px] xl:text-[80px]">
+            <h1 className="max-w-[720px] text-[47px] font-extrabold leading-[0.98] tracking-[-0.055em] text-text-primary sm:text-[68px] lg:text-[65px] xl:text-[70px]">
               <span className="block">{heroData.title}</span>
 
               <span className="mt-2 block bg-gradient-to-r from-[#4b31c9] via-[#5634d9] to-[#2563eb] bg-clip-text text-transparent">

@@ -94,7 +94,11 @@ function About() {
             <div className="mt-10 rounded-[18px] border border-border border-l-[4px] border-l-primary bg-surface/70 p-5 shadow-[var(--shadow-card)] backdrop-blur-sm sm:p-7">
               <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
                 <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-primary-light text-primary">
-                  <Icon icon={aboutData.education.icon} className="h-11 w-11" />
+                  <img
+                    src={aboutData.education.image}
+                    alt="University of Central Punjab"
+                    className="h-20 w-20 rounded-lg object-contain"
+                  />
                 </div>
 
                 <div className="min-w-0">

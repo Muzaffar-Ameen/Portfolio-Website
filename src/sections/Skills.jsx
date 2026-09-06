@@ -10,7 +10,7 @@ function SkillCard({ skill }) {
       <div className="relative">
         {/* Skill header */}
         <div className="flex items-center gap-4">
-          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-[14px] bg-primary-light">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[14px] bg-primary-light">
             <Icon icon={skill.icon} className="h-9 w-9" aria-hidden="true" />
           </div>
 
@@ -193,7 +193,7 @@ function Skills() {
         </div>
 
         {/* Main skills */}
-        <div className="mt-12 grid gap-5 sm:mt-14 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <div className="mt-12 grid gap-5 sm:mt-14 sm:grid-cols-2 lg:grid-cols-6 lg:gap-6">
           {skillsData.skills.map((skill) => (
             <SkillCard key={skill.name} skill={skill} />
           ))}

@@ -1,9 +1,9 @@
 export const heroData = {
   role: "ASSOCIATE SOFTWARE ENGINEER",
 
-  title: "Full Stack",
+  title: "{ Full Stack",
 
-  highlightedTitle: "MERN Developer",
+  highlightedTitle: "MERN Developer }",
 
   technologies: [
     {
@@ -11,38 +11,38 @@ export const heroData = {
       icon: "skill-icons:react-dark",
     },
     {
-      name: "Node.js",
-      icon: "skill-icons:nodejs-dark",
+      name: "TypeScript",
+      icon: "skill-icons:typescript",
     },
     {
-      name: "Express.js",
-      icon: "simple-icons:express",
+      name: "Node.js",
+      icon: "skill-icons:nodejs-dark",
     },
     {
       name: "MongoDB",
       icon: "skill-icons:mongodb",
     },
     {
-      name: "n8n",
-      icon: "simple-icons:n8n",
-    },
-    {
       name: "REST APIs",
       icon: "mdi:api",
+    },
+    {
+      name: "n8n",
+      icon: "simple-icons:n8n",
     },
   ],
 
   description:
-    "Building full-stack web applications, APIs and automation workflows with modern JavaScript technologies.",
+    "Building scalable full-stack applications, REST APIs, enterprise solutions and AI-powered automation workflows.",
 
   stats: [
     {
-      value: "2+",
+      value: "3+",
       label: "Years Experience",
       icon: "solar:calendar-linear",
     },
     {
-      value: "10+",
+      value: "20+",
       label: "Projects Completed",
       icon: "solar:code-square-linear",
     },
@@ -61,8 +61,9 @@ export const experienceData = [
     role: "Full Stack Developer",
     duration: "Apr 2026 – Present",
     icon: "solar:case-minimalistic-linear",
-    mark: "BB",
-
+    mark: "",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsb0p1zL6WaJ0h1uK04xrRTEW7nbrsBeY_9s6HZylgUVqp3lsUhd6kEPU&s=10",
     points: [
       "Developing full-stack web applications using MERN stack and TypeScript.",
       "Building responsive frontend interfaces with React.js.",
@@ -106,8 +107,9 @@ export const experienceData = [
     role: "MERN Stack Developer",
     duration: "Dec 2025 – Mar 2026",
     icon: "solar:buildings-2-linear",
-    mark: "TG",
-
+    mark: "",
+    image:
+      "https://media.licdn.com/dms/image/v2/D560BAQFgxB0SPSCumg/company-logo_200_200/company-logo_200_200/0/1724131407997/thrivelk_logo?e=2147483647&v=beta&t=63G9iK4-94trTJ8lioXLZsAeMNtXE4C9qLj289zIIeI",
     points: [
       "Delivered 3 full-stack MERN applications from requirement gathering through production deployment.",
       "Built responsive frontends using React.js and scalable REST APIs with Node.js and Express.js.",
@@ -139,16 +141,18 @@ export const experienceData = [
   },
 
   {
-    company: "Aspire Analytics",
+    company: "Aspire Analytica",
     location: "Lahore",
     role: "MERN Stack Developer",
     duration: "Sep 2025 – Nov 2025",
     icon: "solar:code-square-linear",
-    mark: "A",
-
+    mark: "",
+    image:
+      "https://aspireanalytica.com/wp-content/uploads/2022/02/aspire-pvt-ltd.png",
     points: [
       "Worked on full-stack web applications using the MERN stack.",
       "Built dynamic, responsive frontend interfaces using React.js.",
+      "Delivered on-site training to Afaq Fabrics employees on an Odoo-based ERP system, guiding users through system workflows and day-to-day operations.",
       "Collaborated with teams to design, develop, test, and deploy features.",
     ],
 
@@ -169,6 +173,10 @@ export const experienceData = [
         name: "Node.js",
         icon: "skill-icons:nodejs-dark",
       },
+      {
+        name: "Odoo ERP",
+        icon: "simple-icons:odoo",
+      },
     ],
   },
 
@@ -178,8 +186,8 @@ export const experienceData = [
     role: "Full Stack Developer — ExpenseTracker",
     duration: "2026",
     icon: "solar:wallet-2-linear",
-    mark: "ET",
-
+    mark: "",
+    image: "https://cdn-icons-png.flaticon.com/512/8910/8910710.png",
     points: [
       "Built a full-stack expense splitting application using MERN Stack with JWT authentication and Google OAuth.",
       "Implemented group management, expense splitting, balance tracking, and settlements.",
@@ -218,10 +226,11 @@ export const experienceData = [
     company: "University Project",
     location: "Lahore",
     role: "Full Stack Developer — CareerQuest FYP",
-    duration: "Jan 2025 – Jul 2025",
+    duration: "Jul 2024 – Jul 2025",
     icon: "solar:square-academic-cap-linear",
-    mark: "CQ",
-
+    mark: "",
+    image:
+      "https://talib.pk/wp-content/uploads/2014/12/University-Of-Central-Punjab-UCP-Lahore-300x300.jpg.webp",
     points: [
       "Developed a career counseling platform for recommending jobs based on profiles and skills.",
       "Implemented a personality module for IT career suggestions.",
@@ -251,11 +260,41 @@ export const experienceData = [
       },
     ],
   },
+  {
+    company: "Snexus",
+    role: "Web Development Intern",
+    duration: "May 2023 – Aug 2023",
+    location: "Lahore, Pakistan",
+    image:
+      "https://media.licdn.com/dms/image/v2/C4D0BAQGeC5TecfX23A/company-logo_200_200/company-logo_200_200/0/1630479802681/snexusllc_logo?e=2147483647&v=beta&t=5Wy8Lhk8LU6bTDRH3GhzPh5hAV6SI4GPr3v-z5MzWeI",
+    description:
+      "Completed a 3-month internship focused on fundamental web development concepts and frontend technologies.",
+    points: [
+      "Learned and practiced core web development concepts and frontend development fundamentals.",
+      "Worked with HTML, CSS, and JavaScript to understand website structure, styling, and basic interactivity.",
+      "Gained practical exposure to the web development workflow and strengthened foundational programming skills.",
+    ],
+
+    technologies: [
+      {
+        name: "HTML",
+        icon: "mdi:language-html5",
+      },
+      {
+        name: "CSS",
+        icon: "mdi:language-css3",
+      },
+      {
+        name: "JavaScript",
+        icon: "skill-icons:javascript",
+      },
+    ],
+  },
 ];
 
 export const experienceSummary = [
   {
-    value: "2+",
+    value: "3+",
     label: "Years Experience",
     icon: "solar:calendar-linear",
   },
@@ -265,12 +304,12 @@ export const experienceSummary = [
     icon: "solar:buildings-2-linear",
   },
   {
-    value: "5",
+    value: "7",
     label: "Roles",
     icon: "solar:code-square-linear",
   },
   {
-    value: "8+",
+    value: "13+",
     label: "Projects Delivered",
     icon: "solar:folder-with-files-linear",
   },
@@ -316,17 +355,17 @@ export const aboutData = {
 
   stats: [
     {
-      value: "2+",
+      value: "3+",
       label: "Years Experience",
       icon: "solar:calendar-linear",
     },
     {
-      value: "10+",
+      value: "20+",
       label: "Projects Completed",
       icon: "solar:code-square-linear",
     },
     {
-      value: "10+",
+      value: "25+",
       label: "Technologies",
       icon: "solar:layers-linear",
     },
@@ -343,6 +382,8 @@ export const aboutData = {
     duration: "2021 – 2025",
     cgpa: "3.63 / 4.0",
     icon: "solar:square-academic-cap-linear",
+    image:
+      "https://talib.pk/wp-content/uploads/2014/12/University-Of-Central-Punjab-UCP-Lahore-300x300.jpg.webp",
   },
 
   availability: {
@@ -370,43 +411,24 @@ export const aboutData = {
 export const skillsData = {
   eyebrow: "MY SKILLS",
   number: "02",
-
   title: "My Technical",
   highlightedTitle: "Skills",
 
   description:
-    "I build modern, scalable and efficient web applications using the latest technologies in the JavaScript ecosystem.",
+    "I work across modern frontend and backend development, API integration, enterprise applications, automation, testing, and AI-powered workflows.",
 
   skills: [
     {
       name: "React.js",
-      category: "Frontend Library",
+      category: "Frontend Development",
       level: 90,
       icon: "skill-icons:react-dark",
     },
     {
       name: "Node.js",
-      category: "Backend Runtime",
+      category: "Backend Development",
       level: 88,
       icon: "skill-icons:nodejs-dark",
-    },
-    {
-      name: "Express.js",
-      category: "Web Framework",
-      level: 85,
-      icon: "simple-icons:express",
-    },
-    {
-      name: "MongoDB",
-      category: "Database",
-      level: 82,
-      icon: "skill-icons:mongodb",
-    },
-    {
-      name: "TypeScript",
-      category: "Type Safety",
-      level: 80,
-      icon: "skill-icons:typescript",
     },
     {
       name: "REST APIs",
@@ -415,16 +437,166 @@ export const skillsData = {
       icon: "solar:layers-linear",
     },
     {
+      name: "TypeScript",
+      category: "Type-Safe Development",
+      level: 82,
+      icon: "skill-icons:typescript",
+    },
+    {
+      name: "MongoDB",
+      category: "Database",
+      level: 84,
+      icon: "skill-icons:mongodb",
+    },
+    {
+      name: "Next.js",
+      category: "React Framework",
+      level: 82,
+      icon: "skill-icons:nextjs-dark",
+    },
+    {
+      name: "Tailwind CSS",
+      category: "UI Development",
+      level: 90,
+      icon: "logos:tailwindcss-icon",
+    },
+    {
+      name: "Express.js",
+      category: "Backend Framework",
+      level: 86,
+      icon: "simple-icons:express",
+    },
+    {
+      name: "API Integration",
+      category: "Application Integration",
+      level: 92,
+      icon: "solar:link-linear",
+    },
+    {
+      name: "React Query",
+      category: "Server State Management",
+      level: 82,
+      icon: "simple-icons:reactquery",
+    },
+    {
+      name: "JWT Authentication",
+      category: "Authentication",
+      level: 84,
+      icon: "mdi:shield-key-outline",
+    },
+    {
       name: "n8n",
-      category: "Automation Workflows",
-      level: 85,
+      category: "Workflow Automation",
+      level: 86,
       icon: "simple-icons:n8n",
     },
     {
-      name: "Postman / API Testing",
-      category: "API Validation",
+      name: "Python Selenium",
+      category: "Automation Testing",
+      level: 78,
+      icon: "mdi:robot-outline",
+    },
+    {
+      name: "Odoo ERP",
+      category: "Enterprise Systems",
+      level: 75,
+      icon: "mdi:domain",
+    },
+    {
+      name: "Firebase",
+      category: "Backend Services",
+      level: 76,
+      icon: "logos:firebase",
+    },
+    {
+      name: "Supabase",
+      category: "Backend Services",
+      level: 75,
+      icon: "simple-icons:supabase",
+    },
+    {
+      name: "JavaScript",
+      category: "Programming Language",
+      level: 90,
+      icon: "skill-icons:javascript",
+    },
+    {
+      name: "MySQL",
+      category: "Database",
+      level: 72,
+      icon: "skill-icons:mysql-dark",
+    },
+    {
+      name: "Postman",
+      category: "API Testing",
       level: 90,
       icon: "simple-icons:postman",
+    },
+    {
+      name: "Git & GitHub",
+      category: "Version Control",
+      level: 88,
+      icon: "mdi:github",
+    },
+    {
+      name: "Google OAuth",
+      category: "Authentication",
+      level: 80,
+      icon: "mdi:google",
+    },
+    {
+      name: "Responsive UI",
+      category: "Frontend Development",
+      level: 92,
+      icon: "solar:devices-linear",
+    },
+    {
+      name: "Framer Motion",
+      category: "UI Animation",
+      level: 78,
+      icon: "simple-icons:framer",
+    },
+    {
+      name: "AI Chatbot",
+      category: "AI Applications",
+      level: 72,
+      icon: "mdi:robot-outline",
+    },
+    {
+      name: "AI Workflow Automation",
+      category: "AI Automation",
+      level: 82,
+      icon: "mdi:brain",
+    },
+    {
+      name: "Email Notifications",
+      category: "Application Features",
+      level: 82,
+      icon: "solar:letter-linear",
+    },
+    {
+      name: "Push Notifications",
+      category: "Application Features",
+      level: 75,
+      icon: "solar:bell-linear",
+    },
+    {
+      name: "Authentication",
+      category: "Application Security",
+      level: 84,
+      icon: "mdi:shield-check-outline",
+    },
+    {
+      name: "CRUD Operations",
+      category: "Application Development",
+      level: 90,
+      icon: "mdi:database-edit-outline",
+    },
+    {
+      name: "Enterprise ERP",
+      category: "Business Applications",
+      level: 78,
+      icon: "mdi:office-building-outline",
     },
   ],
 
@@ -436,8 +608,16 @@ export const skillsData = {
       icon: "skill-icons:javascript",
     },
     {
+      name: "TypeScript",
+      icon: "skill-icons:typescript",
+    },
+    {
       name: "React.js",
       icon: "skill-icons:react-dark",
+    },
+    {
+      name: "Next.js",
+      icon: "skill-icons:nextjs-dark",
     },
     {
       name: "Node.js",
@@ -456,12 +636,40 @@ export const skillsData = {
       icon: "skill-icons:mysql-dark",
     },
     {
+      name: "Firebase",
+      icon: "logos:firebase",
+    },
+    {
+      name: "Supabase",
+      icon: "simple-icons:supabase",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: "skill-icons:tailwindcss",
+    },
+    {
+      name: "React Query",
+      icon: "simple-icons:reactquery",
+    },
+    {
       name: "n8n",
       icon: "simple-icons:n8n",
     },
     {
       name: "Postman",
       icon: "simple-icons:postman",
+    },
+    {
+      name: "Python",
+      icon: "skill-icons:python-dark",
+    },
+    {
+      name: "Selenium",
+      icon: "simple-icons:selenium",
+    },
+    {
+      name: "Odoo",
+      icon: "simple-icons:odoo",
     },
     {
       name: "Git & GitHub",
@@ -472,7 +680,7 @@ export const skillsData = {
   workWith: {
     title: "What I Work With",
     description:
-      "Full-stack development  •  API integration  •  Automation  •  Clean and scalable solutions",
+      "Full-stack development  •  API integration  •  Enterprise applications  •  Authentication  •  Automation  •  AI workflows  •  Testing  •  Responsive UI",
     icon: "solar:code-square-linear",
   },
 

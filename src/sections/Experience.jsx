@@ -118,6 +118,12 @@ function Experience() {
                       <span className="bg-gradient-to-br from-[#4f21d8] to-[#2563eb] bg-clip-text text-4xl font-extrabold tracking-[-0.06em] text-transparent">
                         {experience.mark}
                       </span>
+                    ) : experience.image ? (
+                      <img
+                        src={experience.image}
+                        alt={`${experience.company} logo`}
+                        className="h-full w-full object-contain p-3"
+                      />
                     ) : (
                       <Icon
                         icon={experience.icon}
@@ -138,10 +144,24 @@ function Experience() {
                   <div className="relative">
                     {/* Mobile company mark */}
                     <div className="mb-5 flex items-center gap-4 md:hidden">
-                      <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-border bg-background">
-                        <span className="bg-gradient-to-br from-[#4f21d8] to-[#2563eb] bg-clip-text text-2xl font-extrabold tracking-[-0.06em] text-transparent">
-                          {experience.mark}
-                        </span>
+                      <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-background">
+                        {experience.mark ? (
+                          <span className="bg-gradient-to-br from-[#4f21d8] to-[#2563eb] bg-clip-text text-2xl font-extrabold tracking-[-0.06em] text-transparent">
+                            {experience.mark}
+                          </span>
+                        ) : experience.image ? (
+                          <img
+                            src={experience.image}
+                            alt={`${experience.company} logo`}
+                            className="h-full w-full object-contain p-2"
+                          />
+                        ) : (
+                          <Icon
+                            icon={experience.icon}
+                            className="h-7 w-7 text-primary"
+                            aria-hidden="true"
+                          />
+                        )}
                       </div>
 
                       <div>
@@ -231,13 +251,13 @@ function Experience() {
                     </div>
 
                     {/* Arrow */}
-                    <div className="absolute bottom-5 right-5 flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 sm:bottom-6 sm:right-6">
+                    {/* <div className="absolute bottom-5 right-5 flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 sm:bottom-6 sm:right-6">
                       <Icon
                         icon="solar:arrow-right-up-linear"
                         className="h-5 w-5"
                         aria-hidden="true"
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </article>
