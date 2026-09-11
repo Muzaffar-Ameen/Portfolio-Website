@@ -68,7 +68,6 @@ function App() {
       <RouteScrollManager />
 
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<AllProjects />} />
@@ -76,7 +75,8 @@ function App() {
       </Routes>
 
       <Footer />
-      <WhatsAppButton />
+<WhatsAppButton />
+
     </>
   );
 }

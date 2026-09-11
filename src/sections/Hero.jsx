@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section
       id="top"
-      className="relative isolate bg-background text-text-primary"
+      className="relative isolate overflow-x-clip bg-background text-text-primary"
     >
       {/* Background Decoration */}
       <div
@@ -156,17 +156,17 @@ function Hero() {
             {/* Main Glow */}
             <div
               aria-hidden="true"
-              className="absolute left-1/2 top-[42%] h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-light/60 blur-2xl sm:h-[620px] sm:w-[620px]"
+              className="absolute left-1/2 top-[42%] h-[min(500px,130vw)] w-[min(500px,130vw)] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-light/60 blur-2xl sm:h-[620px] sm:w-[620px]"
             />
 
             {/* Circular Background */}
             <div
               aria-hidden="true"
-              className="absolute left-1/2 top-[47%] h-[470px] w-[470px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-primary/10 bg-primary-light/20 sm:h-[600px] sm:w-[600px]"
+              className="absolute left-1/2 top-[47%] h-[min(470px,122vw)] w-[min(470px,122vw)] -translate-x-1/2 -translate-y-1/2 rounded-full border border-primary/10 bg-primary-light/20 sm:h-[600px] sm:w-[600px]"
             />
 
             {/* Person */}
-            <div className="absolute bottom-0 left-1/2 z-240 h-[490px] w-full max-w-[520px] -translate-x-1/2 sm:h-[730px] sm:w-[90%] lg:h-[calc(100%-10px)] lg:w-[100%]">
+            <div className="absolute bottom-0 left-1/2 z-240 h-[490px] w-[100%] max-w-[520px] -translate-x-1/2 sm:h-[730px] sm:w-[90%] lg:h-[calc(100%-10px)] lg:w-[100%]">
               <div className="relative h-full w-full">
                 <img
                   src={muzaffarPic}
@@ -458,4 +458,5 @@ function Hero() {
 }
 
 export default Hero;
+
 
