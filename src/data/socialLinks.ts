@@ -32,6 +32,6 @@
   {
     name: "WhatsApp",
     type: "whatsapp",
-    href: "https://wa.me/923414642198",
+    href: "https://wa.me/923474862915",
   },
 ];

@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/923474862945"
+      href="https://wa.me/923474862915"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contact on WhatsApp"
