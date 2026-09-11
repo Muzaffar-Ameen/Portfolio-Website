@@ -166,7 +166,7 @@ function Hero() {
             />
 
             {/* Person */}
-            <div className="absolute bottom-0 left-1/2 z-240 h-[490px] w-[110%] -translate-x-1/2 sm:h-[730px] sm:w-[90%] lg:h-[calc(100%-10px)] lg:w-[100%]">
+            <div className="absolute bottom-0 left-1/2 z-240 h-[490px] w-full max-w-[520px] -translate-x-1/2 sm:h-[730px] sm:w-[90%] lg:h-[calc(100%-10px)] lg:w-[100%]">
               <div className="relative h-full w-full">
                 <img
                   src={muzaffarPic}
@@ -309,7 +309,7 @@ function Hero() {
               </div>
             </div> */}
             {/* Mobile Code Card */}
-            <div className="absolute right-[0%] top-[10%] z-30 w-[170px] rounded-[13px] border border-white/10 bg-[#15191e] p-2 shadow-2xl sm:hidden">
+            <div className="absolute right-0 top-[10%] z-30 w-[min(170px,45vw)] rounded-[13px] border border-white/10 bg-[#15191e] p-2 shadow-2xl sm:hidden">
               <div className="mb-3 flex gap-1.5">
                 <span className="h-2 w-2 rounded-full bg-red-400" />
                 <span className="h-2 w-2 rounded-full bg-yellow-400" />
@@ -328,7 +328,7 @@ function Hero() {
             </div>
 
             {/* Mobile API Card */}
-            <div className="absolute bottom-[4%] right-[0%] z-30 w-[175px] rounded-[14px] border border-border bg-surface/95 p-4 shadow-2xl backdrop-blur-md sm:hidden">
+            <div className="absolute bottom-[4%] right-0 z-30 w-[min(175px,46vw)] rounded-[14px] border border-border bg-surface/95 p-4 shadow-2xl backdrop-blur-md sm:hidden">
               <div className="text-[13px] font-semibold text-primary">
                 API Response
               </div>
@@ -350,7 +350,7 @@ function Hero() {
             </div>
 
             {/* Mobile decorative icon */}
-            <div className="absolute left-[1%] bottom-[40%] z-900 flex h-16 w-16 items-center justify-center rounded-[12px] border border-border bg-surface/90 shadow-xl sm:hidden">
+            <div className="absolute left-0 bottom-[40%] z-900 flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-[12px] border border-border bg-surface/90 shadow-xl sm:hidden">
               <Icon
                 icon="solar:code-square-linear"
                 className="h-8 w-8 text-primary"
@@ -458,3 +458,4 @@ function Hero() {
 }
 
 export default Hero;
+

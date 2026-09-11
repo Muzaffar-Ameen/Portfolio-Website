@@ -144,14 +144,18 @@
   html {
     scroll-behavior: smooth;
     color-scheme: light;
+    overflow-x: clip;
   }
 
   html.dark {
     color-scheme: dark;
+    overflow-x: clip;
   }
 
   body {
     margin: 0;
+    width: 100%;
+    max-width: 100%;
     min-width: 320px;
     background: var(--portfolio-background);
     color: var(--portfolio-text-primary);
@@ -253,3 +257,5 @@
 .animate-wa-glow {
   animation: wa-glow 2s ease-in-out infinite;
 }
+
+
